@@ -1,9 +1,10 @@
 function setup() {
     createCanvas(windowWidth, windowHeight);
+    pixelDensity(8);
     background(0);
     noLoop();
     gui = new dat.GUI(); //set up the controller
-    var numController = gui.add(Settings, "NumberOfPoints", 0, 80_000, 100);
+    var numController = gui.add(Settings, "NumberOfPoints", 0, 250_000, 1000);
     gui.width = 400;
     numController.onFinishChange(generateTriangle);
 }
@@ -47,7 +48,7 @@ function draw() {
     generateTriangle();
 }
 function generateTriangle() {
-    if(Settings.NumberOfPoints > 80_000) return;
+
     background(0);
     let dots = Settings.NumberOfPoints;
     console.log("generating triangle...");
