@@ -1,0 +1,48 @@
+body {
+    background-color: #333;
+    color: #ddd;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 22px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.project_title > a {
+    display: block;
+}
+a:hover {
+    text-decoration: underline;
+}
+.underlined {
+    text-decoration: underline dashed;
+}
+.underlined:hover {
+    text-decoration: none;
+}
+#head_title {
+    text-align: center;
+}
+#center_parent {
+    margin: auto;
+    width: 60%;
+}
+.project_tag {
+    display: inline;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.project_title {
+    font-size: 32px;
+}
+.project_description, #intro {
+    font-family: Georgia, serif;
+}

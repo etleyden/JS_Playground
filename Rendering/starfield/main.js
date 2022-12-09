@@ -12,7 +12,6 @@ class Star {
         this.x = x;
         this.y = y;
         this.angle = this.getAngle(this.x, this.y);
-        this.vector = this.calcSlope(this.x, this.y);
         this.opacity = 0;
         this.timeOnScreen = 0.5;
     };

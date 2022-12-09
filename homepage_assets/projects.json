@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Starfield Animation",
+        "dir": "Rendering/starfield/",
+        "description": "After remembering a video I watched by <a href=\"https://thecodingtrain.com/\">The Coding Train</a> a while ago, I wanted to see if I could build this on my own.",
+        "tags": ["Rendering", "Inspired By Coding Train"]
+    },
+    {
+        "title": "Serpinski's Triangle",
+        "dir": "Rendering/serpinski/",
+        "description": "<a href=\"https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle\">A famous fractal</a> that I was inspired to simulate after seeing <a href=\"https://www.reddit.com/r/interestingasfuck/comments/zeb4ol/how_sierpinskis_triangle_a_famous_fractal/\" class=\"underlined\">this Reddit post</a>",
+        "tags": ["Rendering"]
+    },
+    {
+        "title": "Brick Breaker",
+        "dir": "Games/brickBreaker/",
+        "description": "Another classic arcade game I wanted to build just to grow my JS skills",
+        "tags": ["Games"]
+    },
+    {
+        "title": "Tron",
+        "dir": "Games/tron/",
+        "description": "Ever watched <a href=\"https://en.wikipedia.org/wiki/Tron\">the movie?</a> This is my take on the franchise's arcade game.",
+        "tags": ["Games"]
+    },
+    {
+        "title": "2D Snake",
+        "dir": "Games/snake/",
+        "description": "A reverse engineered, personal rendition of the classic 2D game",
+        "tags": ["Games", "Inspired By Coding Train"]
+    }
+]
