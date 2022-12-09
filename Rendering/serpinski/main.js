@@ -1,6 +1,6 @@
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    pixelDensity(8);
+    pixelDensity(4);
     background(0);
     noLoop();
     gui = new dat.GUI(); //set up the controller
